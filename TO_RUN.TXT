@@ -1,0 +1,30 @@
+=====================================================
+CERTIFICATE GENERATION - QUICK RUN COMMANDS
+=====================================================
+
+1. INSTALL DEPENDENCIES:
+   pip install -r requirements.txt
+
+2. BATCH GENERATION (Creates PPTX for all names):
+   python run_batch.py
+
+3. BATCH GENERATION + PDF (Creates both PPTX & PDF):
+   python run_batch.py --pdf
+
+4. GENERATE FROM A SPECIFIC FILE:
+   python scripts/batch_generate.py --file name.csv --pdf
+   python scripts/batch_generate.py --file input/name.xlsx --pdf
+
+5. GENERATE FOR A SINGLE STUDENT:
+   python scripts/generate_certificate.py "Student Name" --pdf
+
+6. CONVERT EXISTING PPTX FILES TO PDF:
+   python scripts/convert_to_pdf.py
+
+=====================================================
+FOLDER LOCATIONS:
+- Template:     template/Certificate_template.pptx
+- Names list:   name.csv or input/name.xlsx
+- PPTX output:  output/pptx/
+- PDF output:   ouput_pdf/
+=====================================================

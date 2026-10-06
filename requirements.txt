@@ -1,0 +1,9 @@
+# Core Certificate Generation
+python-pptx>=1.0.2
+
+# Data Processing (CSV & Excel)
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Optional: Windows PDF Export via PowerPoint COM
+comtypes>=1.4.0; sys_platform == 'win32'

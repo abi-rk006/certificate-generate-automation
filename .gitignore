@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Generated certificates (ignore files, keep folder structure)
+output/pptx/*
+!output/pptx/.gitkeep
+ouput_pdf/*
+!ouput_pdf/.gitkeep
+
+# Certificate templates with staff signatures
+template/*.pptx
+template/*.ppt
+!template/.gitkeep
+
+# Microsoft Office temporary lock files
+~$*
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
